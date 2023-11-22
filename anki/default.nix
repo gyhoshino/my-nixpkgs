@@ -1,7 +1,7 @@
 { fetchurl, stdenv, lib, buildFHSEnv, appimageTools, writeShellScript, anki, undmg, zstd, commandLineArgs ? [] }:
 
 let
-  pname = "anki-bin";
+  pname = "anki-newer";
   # Update hashes for both Linux and Darwin!
   version = "23.10.1";
 
