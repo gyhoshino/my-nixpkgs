@@ -8,7 +8,7 @@ let
   sources = {
     linux = fetchurl {
       url = "https://github.com/ankitects/anki/releases/download/${version}/anki-${version}-linux-qt6.tar.zst";
-      sha256 = "sha256-Kv0SH+bLnBSM/tYHe2kEJc4n7izZTBNWQs2nm/teLEU=";
+      sha256 = "sha256-bFtAUqSoFS8CWESiepWXywndkijATbWp6CJdqlQecuk=";
     };
 
     # For some reason anki distributes completely separate dmg-files for the aarch64 version and the x86_64 version
