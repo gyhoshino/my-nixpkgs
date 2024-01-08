@@ -3,7 +3,7 @@
 let
   pname = "anki-newer";
   # Update hashes for both Linux and Darwin!
-  version = "23.10.1";
+  version = "23.12.1";
 
   sources = {
     linux = fetchurl {
